@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./photo_2021-11-25_18-57-03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.308);
+    transition: 1s;
+    backdrop-filter: blur(10px);
+    
+}
+.box:hover{
+    width: 340px;
+    height: 340px;
+    transition: 0.9s;
+}
+.img{
+    width: 700px;
+    /* filter: brightness(200%); */
+    /* filter: grayscale(1); */
+    /* filter: blur(4px); */
+    /* filter: sepia(50%); */
+    /* filter: invert(100%); */
+    /* filter: drop-shadow(0px 0px 10px green); */
+    /* filter: contrast(200%); */
+    /* filter: saturate(200%); */
+    /* filter: hue-rotate(280deg); */
+    /* filter: opacity(0.8); */
+    cursor: pointer;
+}
